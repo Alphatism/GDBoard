@@ -65,6 +65,9 @@ class GDBoardBot {
 	static void start() throws IOException {
 		start(false);
 	}
+	static String virus() {
+		return "hehehheheehehe";
+	}
 	static void start(boolean reconnect) throws IOException {
 		System.out.println("started");
 		/*if(clientSocket != null && clientSocket.isConnected() ){
